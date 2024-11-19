@@ -1,40 +1,22 @@
-.navbar {
-    background-color: transparent;
+
+  
+  
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-  }
-  
-  .brand {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .menu {
-    display: flex;
     width: 100%;
-    font-size: 18px;
+    background-color: transparent; 
   }
   
-  .nav-center {
-    flex: 1;
+  /* Navbar Items */
+  nav {
     display: flex;
-    justify-content: center;
+    gap: 1rem; 
   }
   
-  .nav-right {
-    display: flex;
-    justify-content: flex-end;
-  }
   
-  .menu a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #000;
-  }
   
-  .menu a:hover {
-    text-decoration: underline;
-  }
+  
+  
   
