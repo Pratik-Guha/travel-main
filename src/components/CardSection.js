@@ -10,15 +10,15 @@ import "../css/cardsection.css"; // Keep your existing CSS
 const CardSection = () => {
   const cards = [
     {
-      imgSrc: beaches,
+      imgSrc: "https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581_1280.jpg",
       title: "Here is the Best Beaches to visit",
     },
     {
-      imgSrc: flights,
+      imgSrc: "https://cdn.pixabay.com/photo/2017/08/07/19/35/people-2607041_1280.jpg",
       title: "Book Your Flights",
     },
     {
-      imgSrc: discounts,
+      imgSrc: "https://cdn.pixabay.com/photo/2017/10/23/05/56/summer-2880261_1280.jpg",
       title: "Discounts over 20%",
     },
   ];
