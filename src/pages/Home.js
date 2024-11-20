@@ -5,10 +5,12 @@ import SearchBar from '../components/SearchBar'
 
 const Home = () => {
   return (
-    <div>
-      <Nav />
-      <CardSection />
-      <SearchBar />
+    <div className='home'> 
+      <div >
+        <Nav />
+        <CardSection />
+        <SearchBar />
+      </div>
     </div>
   )
 }
